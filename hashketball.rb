@@ -184,7 +184,6 @@ def player_numbers(team)
   end
   
    p_numbers = numbers.each do |n|
-     n
     binding.pry
   end
   
