@@ -184,7 +184,7 @@ def player_numbers(team)
   end
   
    p_numbers = numbers.find do |n|
-     
+     n
     binding.pry
   end
   
