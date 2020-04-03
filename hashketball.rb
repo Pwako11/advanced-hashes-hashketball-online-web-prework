@@ -173,8 +173,8 @@ def team_names
 end 
 
 def player_numbers(team)
-  game_hash.keys.find do |t|
-    selected_team = game_hash[t][:team_name] == team
+  selected_team = ggame_hash.keys.each do |t|
+    game_hash[t][:team_name] == team
   end  
   binding.pry
   numbers = selected_team.map do |names|
