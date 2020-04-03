@@ -203,7 +203,7 @@ ps
 end 
 
 def big_shoe_rebounds
-  player = load_players.find do |names|
+  player = load_players.each do |names|
     # names[:player_name] == player_name
   binding.pry
   end
