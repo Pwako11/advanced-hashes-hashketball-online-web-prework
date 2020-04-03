@@ -197,6 +197,6 @@ player
 #   stats  = player[:shoe]
 #   shoe_size
 # end 
-  # binding.pry
+  binding.pry
   
 end 
