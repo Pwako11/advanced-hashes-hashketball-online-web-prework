@@ -193,7 +193,7 @@ def player_stats(player_name)
   stats = load_players.find do |names|
     names[:player_name] == player_name
   end
-  
-(stats)1..-1
+range1 = 1..8
+range1.stats()
   binding.pry
 end 
