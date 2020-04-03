@@ -204,11 +204,10 @@ end
 
 def big_shoe_rebounds
   player = load_players.find do |names|
-    # names[:player_name] == player_name
+    names[:player_name] == player_name
   binding.pry
   end
   shoe_size = player[:shoe]
   shoe_size
-end 
-  
+
 end 
