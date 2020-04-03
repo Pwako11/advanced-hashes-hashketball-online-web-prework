@@ -174,7 +174,7 @@ def team_names
 end 
 
 def player_numbers(team)
-  game_hash.keys.map do |t|
+  selected_team = game_hash.keys.map do |t|
     # if game_hash[t][:team_name] == team
     #   game_hash[t][:team_name][:number]
     binding.pry
