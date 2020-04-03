@@ -61,7 +61,7 @@ def game_hash
 :assists => 2,
 :steals => 4,
 :blocks => 11, 
-:slam_dunk => 1
+:slam_dunks => 1
 }]
   game_hash[:away][:team_name] = "Charlotte Hornets"
   game_hash[:away][:colors] = "Turquoise", "Purple" 
@@ -201,5 +201,5 @@ ps = Hash[Array(stats)[1..-1]].each_pair do |k, v|
 end 
 
 ps
-
+binding.pry
 end 
