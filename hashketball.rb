@@ -192,12 +192,12 @@ end
 def player_stats(player_name)
   player = load_players.find do |names|
     names[:player_name] == player_name
-    
+    binding.pry
   end
 player
 #   stats  = player[:shoe]
 #   shoe_size
 # end 
-  binding.pry
+  
   
 end 
