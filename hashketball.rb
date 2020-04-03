@@ -175,12 +175,14 @@ def team_names
 end 
 
 def player_numbers(team)
-  # selected_team = game_hash.keys.find.map do |t|
-  #   game_hash[t][:team_name] == team
-  #   #   game_hash[t][:team_name][:number]
+  selected_team =  game_hash.keys.map do |t|
+    game_hash[t]
+  end 
+  
+  numbers = selected_team.find.map do |num|
+    binding.pry
+   end
     
-  #   end
-    
-  # # selected_team.flatten
+  
   
 end
