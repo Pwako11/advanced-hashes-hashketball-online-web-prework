@@ -173,10 +173,11 @@ def team_names
 end 
 
 def player_numbers(team)
-  selected_team = game_hash.keys.each do |t|
-    game_hash[t][:team_name] == team
+  selected_team = game_hash.keys.map do |t|
+    if game_hash[t][:team_name] == team
+      game_hash[t][:team_name][:number]
   end  
-  
+  selected_team.flatten
   numbers = selected_team.map do |names|
     # names[:team_name]
   binding.pry
