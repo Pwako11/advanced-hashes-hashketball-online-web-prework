@@ -173,7 +173,7 @@ def team_names
 end 
 
 def player_numbers(team)
-  selected_team = ggame_hash.keys.each do |t|
+  selected_team = game_hash.keys.each do |t|
     game_hash[t][:team_name] == team
   end  
   binding.pry
