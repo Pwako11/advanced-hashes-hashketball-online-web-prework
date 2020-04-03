@@ -181,11 +181,11 @@ def player_numbers(team)
   
   numbers = selected_team.find do |num|
     num[:team_name] == team 
-    
-    
-   end
-   numbers
-    binding.pry
+  end
   
+   p_numbers = numbers.map do |n|
+     
+    binding.pry
+  end
   
 end
