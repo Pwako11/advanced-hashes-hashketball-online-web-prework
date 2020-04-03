@@ -193,7 +193,11 @@ def player_stats(player_name)
   stats = load_players.find do |names|
     names[:player_name] == player_name
   end
-range1 = 1..8
-range1.stats
-  binding.pry
+
+stats
+
+Hash[Array(stats)[1..-1]].each_pair do |k, v|
+
+end 
+binding.pry
 end 
