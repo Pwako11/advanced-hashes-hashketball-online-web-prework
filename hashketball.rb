@@ -209,8 +209,12 @@ def big_shoe_rebounds
   end
   big_shoe = shoe_size.max
   
+  rebounds = load_players.find do |names|
+    names[:shoe] == big_shoe
+    
+  end 
   
-  # binding.pry
+   binding.pry
   
   # shoe_size = player[:shoe]
   # shoe_size
