@@ -194,6 +194,6 @@ def player_stats(player_name)
     names[:player_name] == player_name
   end
 range1 = 1..8
-range1.stats()
+range1.stats
   binding.pry
 end 
