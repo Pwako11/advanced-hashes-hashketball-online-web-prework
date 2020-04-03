@@ -196,8 +196,10 @@ def player_stats(player_name)
 
 stats
 
-Hash[Array(stats)[1..-1]].each_pair do |k, v|
+ps = Hash[Array(stats)[1..-1]].each_pair do |k, v|
 
 end 
+
+ps
 binding.pry
 end 
