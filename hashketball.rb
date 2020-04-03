@@ -180,6 +180,8 @@ def player_numbers(team)
   end 
   
   numbers = selected_team.find.map do |num|
+    num[:team_name] == team 
+    
     binding.pry
    end
     
