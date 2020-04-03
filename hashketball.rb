@@ -173,9 +173,9 @@ def team_names
 end 
 
 def player_numbers(team)
-  selected_team = game_hash.each do |t|
-   t.find do |loc|
-      game_hash[loc][:team_name] == team
+  selected_team = game_hash.keys.each do |t|
+  
+      # game_hash[loc][:team_name] == team
     end
   binding.pry
 end  
