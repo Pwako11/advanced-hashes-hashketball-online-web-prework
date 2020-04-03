@@ -184,6 +184,7 @@ def player_numbers(team)
     
     
    end
+   number
     binding.pry
   
   
