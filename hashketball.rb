@@ -189,9 +189,9 @@ def player_numbers(team)
   p_numbers
 end
 
-def player_stats(player)
+def player_stats(player_name)
   player = load_players.find do |names|
-    names[:player_name] == player
+    names[:player_name] == player_name
   end
 
 #   stats  = player[:shoe]
