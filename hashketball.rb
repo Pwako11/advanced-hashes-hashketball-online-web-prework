@@ -183,7 +183,7 @@ def player_numbers(team)
     num[:team_name] == team 
   end
   p_numbers = []
-  numbers[:players].each.map do |n|
+  numbers[:players].each do |n|
   p_numbers << n:[number]
     binding.pry
   end
