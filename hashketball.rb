@@ -131,7 +131,7 @@ def load_players
     
   end 
   players.flatten
-  binding.pry
+  
 end 
 
 def num_points_scored(player_name)
@@ -174,11 +174,11 @@ def team_names
 end 
 
 def player_numbers(team)
-  # selected_team = game_hash.keys.map do |t|
-  #   if game_hash[t][:team_name] == team
-  #     game_hash[t][:team_name][:number]
-  #   end
-  # end  
+  selected_team = game_hash.keys.map do |t|
+    # if game_hash[t][:team_name] == team
+    #   game_hash[t][:team_name][:number]
+     end
+    
   # selected_team.flatten
-  
+  binding.pry
 end
