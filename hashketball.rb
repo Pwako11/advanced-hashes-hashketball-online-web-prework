@@ -175,7 +175,7 @@ end
 def player_numbers(team)
   selected_team = game_hash.keys.map do |t|
     if game_hash[t][:team_name] == team
-      game_hash[t][:team_name]
+      game_hash[t][:team_name][:number]
     end
   end  
   selected_team.flatten
