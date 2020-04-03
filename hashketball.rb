@@ -193,6 +193,9 @@ def player_stats(player_name)
   stats = load_players.find do |names|
     names[:player_name] == player_name
   end
-stats[1..7]
+ps = (stats)[1..-1]].each_pair do |key, value|
+  
+end 
+ps
 binding.pry
 end 
