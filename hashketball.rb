@@ -203,11 +203,11 @@ ps
 end 
 
 def big_shoe_rebounds
-  player = load_players.map do |names|
+  shoe_size = load_players.map do |names|
      names[:shoe]
      names[:rebounds]
   end
-  player
+  Big_shoe = shoe_size.max
   binding.pry
   
   # shoe_size = player[:shoe]
