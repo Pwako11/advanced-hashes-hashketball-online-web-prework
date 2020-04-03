@@ -187,5 +187,5 @@ def player_numbers(team)
     n[:number]
   end
   p_numbers
-  binding.pry 
+  # binding.pry 
 end
