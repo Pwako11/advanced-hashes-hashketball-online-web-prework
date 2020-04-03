@@ -130,7 +130,7 @@ def load_players
    game_hash[teams][:players]
     
   end 
-  players.flatten
+  players.flattenbinding.pry
 end 
 
 def num_points_scored(player_name)
@@ -179,5 +179,5 @@ def player_numbers(team)
   #   end
   # end  
   # selected_team.flatten
-  binding.pry
+  
 end
