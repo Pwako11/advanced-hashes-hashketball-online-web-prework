@@ -194,8 +194,7 @@ def player_stats(player_name)
     names[:player_name] == player_name
   end
 ps = (stats)[1..-1].each_pair do |key, value|
-  
+  binding.pry
 end 
 ps
-binding.pry
 end 
