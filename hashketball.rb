@@ -190,12 +190,13 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-  selected_team =  game_hash.keys.map do |t|
-    game_hash[t]
+  player = load_players.find do |names|
+    names[:player_name] == player
   end
-  
-  selected_team
-  
+
+#   stats  = player[:shoe]
+#   shoe_size
+# end 
   binding.pry
   
 end 
