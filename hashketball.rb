@@ -179,7 +179,7 @@ def player_numbers(team)
     game_hash[t]
   end 
   
-  numbers = selected_team.find.map do |num|
+  numbers = selected_team.find do |num|
     num[:team_name] == team 
     
     
