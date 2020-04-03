@@ -213,8 +213,8 @@ def big_shoe_rebounds
     names[:shoe] == big_shoe
     
   end 
-  
-   binding.pry
+  rebounds
+  # binding.pry
   
   # shoe_size = player[:shoe]
   # shoe_size
