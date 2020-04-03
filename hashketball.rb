@@ -184,7 +184,7 @@ def player_numbers(team)
   end
   p_numbers = []
   numbers[:players].each do |n|
-  p_numbers << n:[number]
+ 
     binding.pry
   end
   
