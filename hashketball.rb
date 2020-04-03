@@ -152,9 +152,9 @@ def shoe_size(player_name)
 end 
 
 def selected_team
-  selected_team = game_hash.keys.map do |t|
-    game_hash[t]
-  end 
+  game_hash.keys.map do |t|
+  game_hash[t]
+end 
 
 def team_colors(team)
   
