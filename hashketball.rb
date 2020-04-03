@@ -193,6 +193,6 @@ def player_stats(player_name)
   stats = load_players.find do |names|
     names[:player_name] == player_name
   end
-(stats)[1..-1]
+ps = (stats)[1..-1]
   binding.pry
 end 
