@@ -193,5 +193,6 @@ def player_stats(player_name)
   stats = load_players.find do |names|
     names[:player_name] == player_name
   end
-stats
+stats[1..7]
+binding.pry
 end 
