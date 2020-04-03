@@ -184,6 +184,7 @@ def player_numbers(team)
   end
   
    p_numbers = numbers[:players].each.map do |n|
+     n:[number]
     binding.pry
   end
   
