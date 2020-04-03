@@ -187,5 +187,15 @@ def player_numbers(team)
     n[:number]
   end
   p_numbers
-  # binding.pry 
 end
+
+def player_stats(player)
+  selected_team =  game_hash.keys.map do |t|
+    game_hash[t]
+  end
+  
+  selected_team
+  
+  binding.pry
+  
+end 
